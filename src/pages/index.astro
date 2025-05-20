@@ -41,11 +41,8 @@ import ReviewsSlider from '@/components/Reviews/Index.astro';
 	<Services title="Услуги сервисного центра" />
 	{servicesData && <NewServices items={servicesData} title="Услуги сервисного центра" id="new-services" show={false} />}
 	{faqData && <Faq items={faqData} title="Часто задаваемые вопросы" class="bg-gray-100" />}
-	<Callback bgUrl="/img/banners/qx55.webp" />
+	<Callback bgUrl="https://cdn.alexsab.ru/b/infiniti/img/main-sliders/qx55.webp" />
 	{reviewsData && <ReviewsSlider items={reviewsData} title="Отзывы о нас" class="bg-gray-100" />}
 	<SeoText mdx="index" />
-	<Contacts
-		mapImg="./img/map-bg.webp"
-		title="Наши контакты"
-	/>
+	<Contacts title="Наши контакты" />
 </Layout>
