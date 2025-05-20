@@ -54,6 +54,6 @@ export default defineConfig({
 			},
 		},
 	},
-	site: 'https://infiniti.alexsab.ru',
+	site: 'https://infiniti-samauto.ru',
 	base: "/"
 });
