@@ -36,6 +36,7 @@ import ReviewsSlider from '@/components/Reviews/Index.astro';
 
 <Layout title="INFINITI Самарские автомобили – официальный дилер INFINITI в городе Самара" description="INFINITI Самарские автомобили - официальный сервисный центр INFINITI в Самаре. Сервисное обслуживание INFINITI по выгодным ценам, оригинальные запчасти, постгарантийное обслуживание! Тел.: +7 (846) 993-66-00.">
 	<Banner />
+	{MARQUEE.show && <Morquee marquee={ MARQUEE } />}
 	<section class="ptop-[2.7] pbottom-[2.5] bg-accent-500">
 		<div class="container">
 			<PageH1 h1=`Сервисный центр INFINITI в Самаре` classes="text-center fz-[3] text-white font-medium leading-none" />
